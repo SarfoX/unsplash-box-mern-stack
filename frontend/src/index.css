@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Be Vietnam Pro", serif;
+  color: #121826;
+}
+
+.color-primary {
+  color: #121826;
+}
+
+.color-secondary {
+  color: #6c727f;
+}
+
+.color-tertiary {
+  color: #e5e7eb;
+}
+
+a:active p,
+.active p {
+  background-color: #e5e7eb;
+  color: #121826;
+  font-weight: 500;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #f2c593, #8a3282);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  object-fit: cover;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
